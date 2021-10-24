@@ -117,3 +117,17 @@ nav ul li a {
   margin-left: -10px;
   margin-right: 10px;
 }
+
+.info {
+  position: relative;
+}
+
+.info::before {
+  content: '';
+  background: rgba(255, 255, 255, 0.6);
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  top: 5px;
+  left: -30px;
+}
